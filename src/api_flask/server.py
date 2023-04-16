@@ -19,7 +19,7 @@ FALL_DETECT_COUNTER = 15
 
 from pyfcm import FCMNotification
 # Firebase Cloud Messaging init
-push_service = FCMNotification(api_key="AAAAPblhmwc:APA91bHQxAVAG28pivcDsevjEy-rRCrahN3JBkWTMHeuA8Yg1X2ZrarshWhRbcKP7cxkiVLecv-WCeGdG-RjKA1ti61qlqfb5Ih1q1z2OYeLa2RN_-EJ_86CN9jdnwutjeVw3GsZlZkM")
+push_service = FCMNotification(api_key="REDACTED")
 
 models.Base.metadata.create_all(bind=engine)
 
